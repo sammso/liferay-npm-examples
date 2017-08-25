@@ -57,6 +57,6 @@
 		"typescript": "^2.3.4"
 	},
 	"scripts": {
-		"build": "npm install && tsc && babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
+		"build": "tsc && babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
 	}
 }

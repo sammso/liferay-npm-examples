@@ -17,6 +17,6 @@
 		"liferay-npm-bundler-preset-react": "^0.6.0"
 	},
 	"scripts": {
-		"build": "npm install && babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
+		"build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
 	}
 }
